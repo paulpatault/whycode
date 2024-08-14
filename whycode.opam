@@ -14,7 +14,7 @@ depends: [
   "ocaml" { >= "4.14" }
   "dune" {>= "3.0"}
   "odoc" {with-doc}
-  "why3" {= "git-6736"}
+  "why3" {= "git-40a7"}
   "lsp" { >= "1.11.0" }
   "logs" { = "0.7.0"}
   "linol"
@@ -41,7 +41,5 @@ build: [
   ]
 ]
 pin-depends: [
-  [ "why3.git-6736" "git+https://gitlab.inria.fr/why3/why3.git#67362b1" ]
-  [ "why3-ide.git-6736" "git+https://gitlab.inria.fr/why3/why3.git#67362b1" ]
+  [ "why3.git-40a7" "git+https://gitlab.inria.fr/why3/why3.git#40a7b4fc" ]
 ]
-

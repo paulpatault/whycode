@@ -380,7 +380,7 @@ function setupTaskTree(context: ExtensionContext, client: LanguageClient) {
     const view: vscode.TreeView<TaskNode> = vscode.window.createTreeView("taskTree", {
         treeDataProvider,
     });
-    
+
     context.subscriptions.push(view);
 
     client.onNotification(publishTree, (notif) => {
